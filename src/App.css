@@ -12,10 +12,26 @@
 
 nav {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-family: "Anonymous Pro", monospace;
+  font-size: 1.6rem;
+  color: #0b0b0b;
+}
+
+nav :visited {
+  color: #0b0b0b;
 }
 
 nav li {
   list-style-type: none;
   margin: 0 0.6rem;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: rgb(255, 222, 89, 0.6);
 }
