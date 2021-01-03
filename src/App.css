@@ -1,16 +1,9 @@
-@import-normalize;
-
 .App {
   text-align: center;
-  /* background-image: url("/src/img/bp_buddy_bg_img.svg"); */
-  height: 1000px;
-  background-color: #f6f0f0;
+  height: 100%;
+  background-color: #ffffff;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-}
-
-.Buddy {
-  display: flex;
+  justify-content: flex-end;
 }
